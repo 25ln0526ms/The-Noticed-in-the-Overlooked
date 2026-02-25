@@ -20,8 +20,7 @@ const descriptions = {
     "The image captures the front entrance of the campus filled with movement and everyday activity. Students and visitors are seen arriving and leaving at the same time. Some are getting off motorcycles, others are about to ride, while a few are walking or driving past the gate. The guard stands attentively, checking those who enter the school. This scene highlights the rhythm of campus life, showing a space where different paths, purposes, and moments intersect all at once.",
 
   "pic4.png":
-    "This photo captures a vibrant, candid scene within a university pavilion. The space is crowded with students involved in various activities, ranging from socializing and sharing laughs to browsing on their phones and capturing photographs.
-"
+    "This photo captures a vibrant, candid scene within a university pavilion. The space is crowded with students involved in various activities, ranging from socializing and sharing laughs to browsing on their phones and capturing photographs."
 };
 
 // OPEN MODAL (used by BOTH images and buttons)
