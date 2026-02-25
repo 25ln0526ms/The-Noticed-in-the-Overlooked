@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pangasinan State University | Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo-container">
+    <img src="logo.png" alt="PSU Logo">
+    <span class="site-title">Pangasinan State University</span>
+  </div>
+  <nav class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>The Noticed in the Overlooked</h1>
+  <p>"Every image whispers its hidden story—if you have eyes that truly see.”</p><br><br>
+  <p>In every image, the smallest and most overlooked details hold whispers of meaning, waiting for the eyes that truly see. Look closely, and the photograph speaks—its story, its emotions, its hidden connections—unfolding layer by layer before your mind and heart.
+
+</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About</h2>
+  <p>
+    Intertextuality is when a work connects to other texts or ideas, showing multiple meanings at once. In a picture, it means many things can be happening or hinted at through different symbols or references..
+  </p><br>
+  <p>Tacit seeing is the ability to notice and understand things without fully thinking about them. It lets us act and make sense of the world even when our attention is distracted or influenced by what we feel, hear, or expect.</p>
+</section>
+
+<section id="team" class="section">
+  <h2>Meet Our Team</h2>
+  <p class="subtitle">The people behind the lens</p>
+  <div class="team-container">
+    <div class="team-card">
+      <img src="jam.jpg">
+      <h3>Austria, Jamella</h3>
+    </div>
+    <div class="team-card">
+      <img src="ray.jpg">
+      <h3>Salita, Raymundo</h3>
+    </div><div class="team-card">
+      <img src="dj.jpg">
+      <h3>Parangat, Dj</h3>
+    </div><div class="team-card">
+      <img src="jas.jpg">
+      <h3>Soriano, Jasmin</h3>
+    </div><div class="team-card">
+      <img src="nath.jpg">
+      <h3>Mirador, Nathaniel</h3>
+    </div><div class="team-card">
+      <img src="all.jpg">
+      <h3>Camara, Xyle</h3>
+    </div><div class="team-card">
+      <img src="all.jpg">
+      <h3>Dischoso, Aries</h3>
+    </div><div class="team-card">
+      <img src="all.jpg">
+      <h3>Castro ,Charles</h3>
+    </div>
+  </div>
+</section>
+
+
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+ <!-- GALLERY BUTTONS -->
+<div class="gallery-nav">
+  <button onclick="openDefinition('pic.png')">Picture 1</button>
+  <button onclick="openDefinition('pic1.png')">Picture 2</button>
+  <button onclick="openDefinition('pic2.png')">Picture 3</button>
+   <button onclick="openDefinition('pic3.png')">Picture 4</button>
+    <button onclick="openDefinition('pic4.png')">Picture 5</button>
+</div>
+
+  <div class="slider">
+    <div class="slide-track">
+      <img src="pic.png" >
+      <img src="pic1.png" >
+      <img src="pic3.png" >
+     <img src="pic.png" >
+      <img src="pic2.png">
+      <img src="pic3.png">
+      <img src="pic4.png">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <p>All the images come together in portraying the movement and rhythm of campus life. The photographs consistently use natural lighting and soft, warm tones, creating a calm and slightly nostalgic atmosphere.
+
+The structured framing of hallways, staircases, and open areas guides the viewer’s attention to the students, emphasizing how their stories unfold within the same shared environment.
+</p>
+</section>
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Email: 25ln0526_ms@psu.edu.ph</p>
+  <p>Location: Pangasinan, Philippines</p>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Pangasinan State University. All rights reserved.</p>
+</footer>
+
+<div class="modal" id="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img id="modalImg">
+    <div class="modal-text">
+      <h3>Image Description</h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
