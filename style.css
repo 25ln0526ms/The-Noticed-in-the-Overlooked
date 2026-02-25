@@ -533,3 +533,8 @@ body::before {
   margin: 20px auto 0;
   letter-spacing: 0.25px;
 }
+/* ONLY for tall images like pic3.png */
+.modal-content img.full-image {
+  object-fit: contain;
+  background-color: #000;
+}
