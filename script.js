@@ -26,7 +26,7 @@ const imageData = {
   "pic3.jpg":{
     title: "Peer Gathering (Intertextuality)",
   desc:
-    "This image shows a group of students seated in a straight line behind a long table, inspired by The Last Supper, with one student at the center and others on both sides creating balance. In front of them are sliced green mangoes, cups, and dipping sauce, showing they are sharing food in a casual school setting, while some students talk or look at each other. This connects to intertextuality because the image copies the arrangement of a famous artwork and presents it in a modern situation, helping viewers recognize the reference and understand its deeper meaning.",
+    "This image shows a group of students seated in a straight line behind a long table, inspired by The Last Supper, with one student at the center and others on both sides creating balance. In front of them are sliced green mangoes, cups, and dipping sauce, showing they are sharing food in a casual school setting, while some students talk or look at each other. This connects to intertextuality because the image copies the arrangement of a famous artwork and presents it in a modern situation, helping viewers recognize the reference.",
   },
   "pic4.jpg":{
     title: "In Their Element (Intertextuality)",
